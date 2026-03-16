@@ -593,4 +593,33 @@ footer {
     .contact-card h2 {
         font-size: 2.5rem;
     }
+}/* --- MOBILE FIXES ADDED FROM INSPECTOR --- */
+@media (max-width: 480px) {
+    .glitch-text {
+        font-size: 3.5rem !important; /* Makes the main title fit the screen */
+        line-height: 1.1;
+    }
+
+    .section-title h2 {
+        font-size: 2.2rem !important;
+        margin-bottom: 2rem;
+    }
+
+    .premium-p {
+        font-size: 1.1rem !important; /* Makes the text readable on phones */
+        padding: 0 10px;
+    }
+
+    .about {
+        padding: 4rem 0 !important;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .stat-number {
+        font-size: 2.5rem !important;
+    }
 }
